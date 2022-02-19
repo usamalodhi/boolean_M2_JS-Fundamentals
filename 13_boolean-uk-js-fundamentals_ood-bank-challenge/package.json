@@ -1,0 +1,28 @@
+{
+  "name": "odd-bank-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bank.js",
+  "scripts": {
+    "test": "npx eslint src && npx jasmine",
+    "prepare": "husky install"
+  },
+  "author": "dearshrewdwit",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "husky": "^7.0.4",
+    "jasmine": "^3.10.0",
+    "moment": "^2.29.1"
+  },
+  "dependencies": {
+    "fixed-width-string": "^2.0.0",
+    "package.json": "^2.0.1",
+    "table": "^6.8.0",
+    "underscore": "^1.13.2"
+  }
+}
